@@ -1,0 +1,37 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "text-primary-color": (
+      property: color,
+      class: text-primary,
+      values: $primary-colors,
+    ),
+    "text-neutral-color": (
+      property: color,
+      class: text-neutral,
+      values: $neutral-colors,
+    ),
+    "line-height": (
+      property: line-height,
+      class: lh,
+      values: $line-height,
+    ),
+    "font-size": (
+      responsive: true,
+      property: font-size,
+      class: fs,
+      values: $font-sizes,
+    ),
+  )
+);
+
+// display 文字尺寸 的斷點
+@each $breakpoint, $min-width in $grid-breakpoints {
+  @include media-breakpoint-up($breakpoint) {
+    @each $display, $font-size in $display-font-sizes {
+      .display-#{$breakpoint}-#{$display} {
+        @include font-size($font-size);
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+/*
+===================
+!!!!! 按鈕結構 !!!!!
+===================
+*/
+
+.btn {
+  /* 顯示層級 */
+  display: inline-block; /* 行內區塊 */
+
+  /* 字體 */
+  font-weight: 500; /* 字重 */
+  line-height: 1.5; /* 行高 */
+  text-align: center; /* 文字對齊 */
+  text-decoration: none; /* 文字裝飾 */
+  vertical-align: middle; /* 垂直對齊 */
+  letter-spacing: var(--ls-5); /* 字距 */
+
+  /* 文字無法反白 */
+  user-select: none;
+
+  /* 外邊框 */
+  border: 1px solid transparent;
+
+  /* 圓角 */
+  border-radius: var(--radius-sm);
+
+  /* 過度動畫 */
+  transition: all 0.15s ease-in-out;
+
+  /* 滑鼠游標樣式 */
+  cursor: pointer; /* 手指 */
+}
+
+/*
+===================
+!!!!! 按鈕尺寸 !!!!!
+===================
+*/
+.btn-large {
+  /* 內間距 */
+  @include btn-size($spacing-m, $spacing-m, $spacing-l, $spacing-l);
+}
+
+.btn-small {
+  /* 內間距 */
+  @include btn-size($spacing-xs, $spacing-xs, $spacing-s, $spacing-s);
+}
+
+.btn-primary {
+  @include button-version(
+    $primary-300,
+    1px solid $primary-300,
+    $neutral-900,
+    $primary-300,
+    1px solid transparent,
+    $primary-500,
+    $primary-300,
+    1px solid transparent,
+    $primary-500
+  );
+}

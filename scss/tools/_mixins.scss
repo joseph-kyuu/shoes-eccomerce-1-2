@@ -1,0 +1,34 @@
+@mixin btn-size($pt, $pb, $ps, $pe) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+  padding-left: $ps;
+  padding-right: $pe;
+}
+
+@mixin button-version(
+  $background,
+  $border,
+  $color,
+  $hover-background,
+  $hover-border,
+  $hover-color,
+  $active-background,
+  $active-border,
+  $active-color
+) {
+  background: $background;
+  border: $border;
+  color: $color;
+
+  &:hover {
+    background: $hover-background;
+    border: $hover-border;
+    color: $hover-color;
+  }
+
+  &:active {
+    background: $active-background !important;
+    border: $active-border !important;
+    color: $active-color !important;
+  }
+}

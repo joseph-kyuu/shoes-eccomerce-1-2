@@ -32,12 +32,45 @@ $display-font-sizes: (
 );
 
 $font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $h5-font-size,
-  6: $h6-font-size,
-  7: $h6-font-size,
-  8: $h6-font-size,
+  1: $fs-1,
+  2: $fs-2,
+  3: $fs-3,
+  4: $fs-4,
+  5: $fs-5,
+  6: $fs-6,
+  7: $fs-7,
+  8: $fs-8,
 );
+
+$spacers: (
+  0: $spacing-0,
+  1: $spacing-xxs,
+  2: $spacing-xs,
+  3: $spacing-m,
+  4: $spacing-s,
+  5: $spacing-l,
+  6: $spacing-xl,
+  7: $spacing-2xl,
+  8: $spacing-3xl,
+  9: $spacing-4xl,
+  10: $spacing-5xl,
+  11: $spacing-6xl,
+);
+
+/*
+===================
+!!!!! spacing !!!!!
+===================
+#0:0
+#1:4
+#2:8
+#3:12
+#4:16
+#5:24
+#6:32
+#7:40
+#8:48
+#9:56
+#10:64
+#11:80
+*/

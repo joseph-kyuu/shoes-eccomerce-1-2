@@ -1,0 +1,5 @@
+.mb-0-last {
+  > :last-child {
+    margin-bottom: 0 !important;
+  }
+}

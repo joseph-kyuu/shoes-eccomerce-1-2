@@ -8,6 +8,7 @@
 @mixin button-version(
   $background,
   $border,
+  $radius,
   $color,
   $hover-background,
   $hover-border,
@@ -18,6 +19,7 @@
 ) {
   background: $background;
   border: $border;
+  border-radius: $radius;
   color: $color;
 
   &:hover {

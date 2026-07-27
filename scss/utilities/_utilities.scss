@@ -11,6 +11,11 @@ $utilities: map-merge(
       class: text-neutral,
       values: $neutral-colors,
     ),
+    "bg-primary-color": (
+      property: background-color,
+      class: bg-primary,
+      values: $primary-colors,
+    ),
     "line-height": (
       property: line-height,
       class: lh,

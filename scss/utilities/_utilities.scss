@@ -16,6 +16,11 @@ $utilities: map-merge(
       class: bg-primary,
       values: $primary-colors,
     ),
+    "bg-neutral-color": (
+      property: background-color,
+      class: bg-neutral,
+      values: $neutral-colors,
+    ),
     "line-height": (
       property: line-height,
       class: lh,
@@ -26,6 +31,18 @@ $utilities: map-merge(
       property: font-size,
       class: fs,
       values: $font-sizes,
+    ),
+    "max-height-c": (
+      responsive: true,
+      property: max-height,
+      class: max-height,
+      values: $max-height-c,
+    ),
+    "max-width-c": (
+      responsive: true,
+      property: max-width,
+      class: max-width,
+      values: $max-width-c,
     ),
     "margin": (
       responsive: true,
@@ -103,49 +120,6 @@ $utilities: map-merge(
             auto: auto,
           )
         ),
-    ),
-    // Negative margin utilities
-    "negative-margin": (
-        responsive: true,
-        property: margin,
-        class: m,
-        values: $negative-spacers,
-      ),
-    "negative-margin-x": (
-      responsive: true,
-      property: margin-right margin-left,
-      class: mx,
-      values: $negative-spacers,
-    ),
-    "negative-margin-y": (
-      responsive: true,
-      property: margin-top margin-bottom,
-      class: my,
-      values: $negative-spacers,
-    ),
-    "negative-margin-top": (
-      responsive: true,
-      property: margin-top,
-      class: mt,
-      values: $negative-spacers,
-    ),
-    "negative-margin-end": (
-      responsive: true,
-      property: margin-right,
-      class: me,
-      values: $negative-spacers,
-    ),
-    "negative-margin-bottom": (
-      responsive: true,
-      property: margin-bottom,
-      class: mb,
-      values: $negative-spacers,
-    ),
-    "negative-margin-start": (
-      responsive: true,
-      property: margin-left,
-      class: ms,
-      values: $negative-spacers,
     ),
     // Padding utilities
     "padding": (

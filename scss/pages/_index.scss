@@ -11,3 +11,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.bg-shoes-1 {
+  background:
+    linear-gradient($mask-black-o40, $mask-black-o40),
+    url(../../img/product-6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

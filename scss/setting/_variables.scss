@@ -42,6 +42,9 @@ $functional-info-100: #eef5fc;
 $functional-info-200: #97c3ed;
 $functional-info-300: #3087db;
 
+/* RGBA */
+$mask-black-o40: rgba(0, 0, 0, 0.4);
+
 /* 
   ===============
   !!!!! 行高 !!!!!
@@ -139,6 +142,12 @@ $spacing-6xl: $general-size-base * 5;
 $spacing-288: $general-size-base * 18;
 /* 200px */
 $spacing-200: $general-size-base * 12.5;
+/* 100px */
+$spacing-100: $general-size-base * 6.25;
+/* 84px */
+$spacing-84: $general-size-base * 5.25;
+/* 118px */
+$spacing-118: $general-size-base * 7.375;
 
 /* 
   =============
@@ -150,3 +159,18 @@ $radius-sm: $general-size-base * 0.25;
 
 /* 12px */
 $radius-md: $general-size-base * 0.75;
+
+/* 
+  ======================
+  !!!!! max-height !!!!!
+  ======================
+*/
+$max-h-8: $general-size-base * 0.5;
+
+/* 
+  ======================
+  !!!!! max-width !!!!!
+  ======================
+*/
+$max-w-8: $general-size-base * 0.5;
+$max-w-24: $general-size-base * 1.5;

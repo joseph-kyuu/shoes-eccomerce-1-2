@@ -8584,6 +8584,23 @@ textarea.form-control-lg {
   color: #477a11 !important;
 }
 
+.btn-neutral-filled {
+  background: #212529;
+  border: 1px solid #212529;
+  border-radius: 0.25rem;
+  color: #ffffff;
+}
+.btn-neutral-filled:hover {
+  background: #495057;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+.btn-neutral-filled:active {
+  background: #495057 !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+}
+
 .bg-hero {
   background: url(../../img/banner.png);
   background-size: cover;

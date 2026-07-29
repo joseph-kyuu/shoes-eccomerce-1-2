@@ -61,3 +61,18 @@
     $primary-500
   );
 }
+
+.btn-neutral-filled {
+  @include button-version(
+    $neutral-900,
+    1px solid $neutral-900,
+    $radius-sm,
+    $neutral-0,
+    $neutral-700,
+    1px solid transparent,
+    $neutral-0,
+    $neutral-700,
+    1px solid transparent,
+    $neutral-0
+  );
+}

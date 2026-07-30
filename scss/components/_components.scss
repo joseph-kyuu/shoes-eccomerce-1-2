@@ -62,6 +62,21 @@
   );
 }
 
+.btn-primary-200 {
+  @include button-version(
+    $primary-100,
+    null,
+    null,
+    $neutral-900,
+    $primary-200,
+    null,
+    $neutral-900,
+    $primary-200,
+    null,
+    $neutral-900
+  );
+}
+
 .btn-neutral-filled {
   @include button-version(
     $neutral-900,
@@ -75,4 +90,8 @@
     1px solid transparent,
     $neutral-0
   );
+}
+
+.active-1 {
+  @include active($primary-200);
 }

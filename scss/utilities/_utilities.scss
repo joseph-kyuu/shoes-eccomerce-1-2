@@ -191,7 +191,7 @@ $utilities: map-merge(
   @include media-breakpoint-up($breakpoint) {
     @each $display, $font-size in $display-font-sizes {
       .display-#{$breakpoint}-#{$display} {
-        @include font-size($font-size);
+        font-size: $font-size !important;
       }
     }
   }

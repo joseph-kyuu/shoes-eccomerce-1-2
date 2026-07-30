@@ -9,7 +9,8 @@
   <body>
     <!-- header -->
     <header>
-      <nav class="container py-sm-4 py-2">
+      <!-- 電腦版 -->
+      <nav class="container py-sm-4 py-3">
         <ul
           class="list-unstyled d-flex justify-content-between align-items-center"
         >
@@ -36,22 +37,26 @@
             </a>
           </li>
         </ul>
-        <ul class="list-unstyled d-flex d-sm-none">
-          <li class="w-50">
-            <a class="py-3" href="">商品列表</a>
-          </li class="w-50">
-                    <li>
-            <a class="py-3" href="">商品列表</a>
+      </nav>
+      <!-- 手機版 -->
+      <nav class="d-sm-none">
+        <ul class="list-unstyled d-flex  text-center">
+          <li class="flex-grow-1">
+            <a class="py-3 btn-primary-200 active-1" href="">商品列表</a>
+          </li >
+          <li class="flex-grow-1">
+            <a class="py-3 btn-primary-200 " href="">品牌故事</a>
           </li>
         </ul>
       </nav>
-      <section class="py-12 ps-13 bg-hero">
+      <!-- hero  -->
+      <section class="py-12 ps-md-13 px-5 bg-md-hero bg-hero">
         <div>
-          <div class="mb-8">
-            <div class="mb-4">
-              <h2 class="display-1 text-neutral-0 fw-bold lh-1p2">URBNSTEP</h2>
+          <div class="mb-md-8 mb-6">
+            <div class="mb-md-4 mb-2">
+              <h2 class="display-md-1 display-2 text-neutral-0 fw-bold lh-1p2">URBNSTEP</h2>
             </div>
-            <h2 class="fs-3 text-neutral-0 fw-bold lh-1p2">
+            <h2 class="fs-md-3 fs-5 text-neutral-0 fw-bold lh-1p2">
               Your Step, Your Statement
             </h2>
           </div>
@@ -64,13 +69,13 @@
       </section>
     </header>
     <!-- main -->
-    <main class="py-10">
+    <main class="py-md-10 py-7">
       <!-- new arrival -->
       <section class="container pb-10">
         <!-- 標題 -->
-        <div class="text-center mb-6">
+        <div class="text-center mb-md-6 mb-5">
           <div class="mb-3">
-            <h2 class="display-2 text-neutral-900 fw-bold lh-1p2">
+            <h2 class="display-md-2 fs-2 text-neutral-900 fw-bold lh-1p2">
               New Arrival
             </h2>
           </div>

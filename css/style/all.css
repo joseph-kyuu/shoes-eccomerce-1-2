@@ -767,54 +767,6 @@ ol {
           box-sizing: border-box;
 }
 
-.display-xs-1 {
-  font-size: 4rem !important;
-}
-
-.display-xs-2 {
-  font-size: 3rem !important;
-}
-
-@media (min-width: 576px) {
-  .display-sm-1 {
-    font-size: 4rem !important;
-  }
-  .display-sm-2 {
-    font-size: 3rem !important;
-  }
-}
-@media (min-width: 768px) {
-  .display-md-1 {
-    font-size: 4rem !important;
-  }
-  .display-md-2 {
-    font-size: 3rem !important;
-  }
-}
-@media (min-width: 992px) {
-  .display-lg-1 {
-    font-size: 4rem !important;
-  }
-  .display-lg-2 {
-    font-size: 3rem !important;
-  }
-}
-@media (min-width: 1200px) {
-  .display-xl-1 {
-    font-size: 4rem !important;
-  }
-  .display-xl-2 {
-    font-size: 3rem !important;
-  }
-}
-@media (min-width: 1400px) {
-  .display-xxl-1 {
-    font-size: 4rem !important;
-  }
-  .display-xxl-2 {
-    font-size: 3rem !important;
-  }
-}
 .mb-0-last > :last-child {
   margin-bottom: 0 !important;
 }
@@ -8586,15 +8538,18 @@ textarea.form-control-lg {
 
 .btn-primary-200 {
   background: #f5fee7;
+  border: 0px;
+  border-radius: 0px;
   color: #212529;
 }
 .btn-primary-200:hover {
   background: #e8fec5;
+  border: 0px;
   color: #212529;
 }
 .btn-primary-200:active {
   background: #e8fec5 !important;
-  border: !important;
+  border: 0px !important;
   color: #212529 !important;
 }
 
@@ -18227,5 +18182,53 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+.display-xs-1 {
+  font-size: 4rem !important;
+}
+
+.display-xs-2 {
+  font-size: 3rem !important;
+}
+
+@media (min-width: 576px) {
+  .display-sm-1 {
+    font-size: 4rem !important;
+  }
+  .display-sm-2 {
+    font-size: 3rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .display-md-1 {
+    font-size: 4rem !important;
+  }
+  .display-md-2 {
+    font-size: 3rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .display-lg-1 {
+    font-size: 4rem !important;
+  }
+  .display-lg-2 {
+    font-size: 3rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .display-xl-1 {
+    font-size: 4rem !important;
+  }
+  .display-xl-2 {
+    font-size: 3rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  .display-xxl-1 {
+    font-size: 4rem !important;
+  }
+  .display-xxl-2 {
+    font-size: 3rem !important;
   }
 }

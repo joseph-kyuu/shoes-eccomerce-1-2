@@ -4,7 +4,7 @@ $enable-rfs: false;
   ===============
   !!!!! 顏色 !!!!!
   ===============
-  */
+*/
 /* primary */
 $primary-100: #f5fee7;
 $primary-200: #e8fec5;
@@ -42,6 +42,9 @@ $functional-info-100: #eef5fc;
 $functional-info-200: #97c3ed;
 $functional-info-300: #3087db;
 
+/* RGBA */
+$mask-black-o40: rgba(0, 0, 0, 0.4);
+
 /* 
   ===============
   !!!!! 行高 !!!!!
@@ -63,17 +66,17 @@ $ls-5: 0.05em;
   ==================
   */
 /*
-==========
+====
 基底
-==========
+====
 */
 
 $general-size-base: 1rem;
 
 /* 
-===========
+=====
 大尺寸 
-===========
+=====
 */
 
 /* 64px */
@@ -82,24 +85,92 @@ $display-1: $general-size-base * 4;
 $display-2: $general-size-base * 3;
 
 /* 
-===========
+=======
 一般尺寸 
-===========
+=======
 */
 
-$fs-1: calc(var($general-size-base) * 2.5);
+/* 40px */
+$fs-1: $general-size-base * 2.5;
 /* 32px */
-$fs-2: calc(var($general-size-base) * 2);
+$fs-2: $general-size-base * 2;
 /* 28px */
-$fs-3: calc(var($general-size-base) * 1.75);
+$fs-3: $general-size-base * 1.75;
 /* 24px */
-$fs-4: calc(var($general-size-base) * 1.5);
+$fs-4: $general-size-base * 1.5;
 /* 20px */
-$fs-5: calc(var($general-size-base) * 1.25);
+$fs-5: $general-size-base * 1.25;
 /* 16px */
-$fs-6: var($general-size-base);
+$fs-6: $general-size-base;
 /* 小尺寸 */
 /* 14px */
-$fs-7: calc(var($general-size-base) * 0.875);
+$fs-7: $general-size-base * 0.875;
 /* 12px */
-$fs-8: calc(var($general-size-base) * 0.75);
+$fs-8: $general-size-base * 0.75;
+
+/* 
+  ===================
+  !!!!! spacing !!!!!
+  ===================
+*/
+
+/* 0px */
+$spacing-0: 0;
+/* 4px */
+$spacing-xxs: $general-size-base * 0.25;
+/* 8px */
+$spacing-xs: $general-size-base * 0.5;
+/* 12px */
+$spacing-m: $general-size-base * 0.75;
+/* 16px */
+$spacing-s: $general-size-base;
+/* 24px */
+$spacing-l: $general-size-base * 1.5;
+/* 32px */
+$spacing-xl: $general-size-base * 2;
+/* 40px */
+$spacing-2xl: $general-size-base * 2.5;
+/* 48px */
+$spacing-3xl: $general-size-base * 3;
+/* 56px */
+$spacing-4xl: $general-size-base * 3.5;
+/* 64px */
+$spacing-5xl: $general-size-base * 4;
+/* 80px */
+$spacing-6xl: $general-size-base * 5;
+/* 288px */
+$spacing-288: $general-size-base * 18;
+/* 200px */
+$spacing-200: $general-size-base * 12.5;
+/* 100px */
+$spacing-100: $general-size-base * 6.25;
+/* 84px */
+$spacing-84: $general-size-base * 5.25;
+/* 118px */
+$spacing-118: $general-size-base * 7.375;
+
+/* 
+  =============
+  !!!!!圓角!!!!!
+  =============
+  */
+/* 4px */
+$radius-sm: $general-size-base * 0.25;
+
+/* 12px */
+$radius-md: $general-size-base * 0.75;
+
+/* 
+  ======================
+  !!!!! max-height !!!!!
+  ======================
+*/
+$max-h-8: $general-size-base * 0.5;
+
+/* 
+  ======================
+  !!!!! max-width !!!!!
+  ======================
+*/
+$max-w-8: $general-size-base * 0.5;
+$max-w-24: $general-size-base * 1.5;

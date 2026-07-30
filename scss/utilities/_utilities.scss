@@ -11,6 +11,16 @@ $utilities: map-merge(
       class: text-neutral,
       values: $neutral-colors,
     ),
+    "bg-primary-color": (
+      property: background-color,
+      class: bg-primary,
+      values: $primary-colors,
+    ),
+    "bg-neutral-color": (
+      property: background-color,
+      class: bg-neutral,
+      values: $neutral-colors,
+    ),
     "line-height": (
       property: line-height,
       class: lh,
@@ -22,6 +32,157 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes,
     ),
+    "max-height-c": (
+      responsive: true,
+      property: max-height,
+      class: max-height,
+      values: $max-height-c,
+    ),
+    "max-width-c": (
+      responsive: true,
+      property: max-width,
+      class: max-width,
+      values: $max-width-c,
+    ),
+    "margin": (
+      responsive: true,
+      property: margin,
+      class: m,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    "margin-x": (
+      responsive: true,
+      property: margin-right margin-left,
+      class: mx,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    "margin-y": (
+      responsive: true,
+      property: margin-top margin-bottom,
+      class: my,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    "margin-top": (
+      responsive: true,
+      property: margin-top,
+      class: mt,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    "margin-end": (
+      responsive: true,
+      property: margin-right,
+      class: me,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    "margin-bottom": (
+      responsive: true,
+      property: margin-bottom,
+      class: mb,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    "margin-start": (
+      responsive: true,
+      property: margin-left,
+      class: ms,
+      values: map-merge(
+          $spacers,
+          (
+            auto: auto,
+          )
+        ),
+    ),
+    // Padding utilities
+    "padding": (
+        responsive: true,
+        property: padding,
+        class: p,
+        values: $spacers,
+      ),
+    "padding-x": (
+      responsive: true,
+      property: padding-right padding-left,
+      class: px,
+      values: $spacers,
+    ),
+    "padding-y": (
+      responsive: true,
+      property: padding-top padding-bottom,
+      class: py,
+      values: $spacers,
+    ),
+    "padding-top": (
+      responsive: true,
+      property: padding-top,
+      class: pt,
+      values: $spacers,
+    ),
+    "padding-end": (
+      responsive: true,
+      property: padding-right,
+      class: pe,
+      values: $spacers,
+    ),
+    "padding-bottom": (
+      responsive: true,
+      property: padding-bottom,
+      class: pb,
+      values: $spacers,
+    ),
+    "padding-start": (
+      responsive: true,
+      property: padding-left,
+      class: ps,
+      values: $spacers,
+    ),
+    // Gap utility
+    "gap": (
+        responsive: true,
+        property: gap,
+        class: gap,
+        values: $spacers,
+      ),
+    "row-gap": (
+      responsive: true,
+      property: row-gap,
+      class: row-gap,
+      values: $spacers,
+    ),
+    "column-gap": (
+      responsive: true,
+      property: column-gap,
+      class: column-gap,
+      values: $spacers,
+    ),
   )
 );
 
@@ -30,7 +191,7 @@ $utilities: map-merge(
   @include media-breakpoint-up($breakpoint) {
     @each $display, $font-size in $display-font-sizes {
       .display-#{$breakpoint}-#{$display} {
-        @include font-size($font-size);
+        font-size: $font-size !important;
       }
     }
   }

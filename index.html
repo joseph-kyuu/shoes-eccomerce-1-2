@@ -9,7 +9,8 @@
   <body>
     <!-- header -->
     <header>
-      <nav class="container py-4">
+      <!-- 電腦版 -->
+      <nav class="container py-sm-4 py-3">
         <ul
           class="list-unstyled d-flex justify-content-between align-items-center"
         >
@@ -18,12 +19,12 @@
               <li class="me-8">
                 <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
               </li>
-              <li class="me-7">
+              <li class="me-7 d-none d-sm-flex">
                 <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
                   >商品列表</a
                 >
               </li>
-              <li class="me-7">
+              <li class="me-7 d-none d-sm-flex">
                 <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
                   >品牌故事</a
                 >
@@ -37,13 +38,25 @@
           </li>
         </ul>
       </nav>
-      <section class="py-12 ps-13 bg-hero">
+      <!-- 手機版 -->
+      <nav class="d-sm-none">
+        <ul class="list-unstyled d-flex  text-center">
+          <li class="flex-grow-1">
+            <a class="py-3 btn-primary-200 active-1" href="">商品列表</a>
+          </li >
+          <li class="flex-grow-1">
+            <a class="py-3 btn-primary-200 " href="">品牌故事</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- hero  -->
+      <section class="py-12 ps-md-13 px-5 bg-md-hero bg-hero">
         <div>
-          <div class="mb-8">
-            <div class="mb-4">
-              <h2 class="display-1 text-neutral-0 fw-bold lh-1p2">URBNSTEP</h2>
+          <div class="mb-md-8 mb-6">
+            <div class="mb-md-4 mb-2">
+              <h2 class="display-md-1 display-2 text-neutral-0 fw-bold lh-1p2">URBNSTEP</h2>
             </div>
-            <h2 class="fs-3 text-neutral-0 fw-bold lh-1p2">
+            <h2 class="fs-md-3 fs-5 text-neutral-0 fw-bold lh-1p2">
               Your Step, Your Statement
             </h2>
           </div>
@@ -56,13 +69,13 @@
       </section>
     </header>
     <!-- main -->
-    <main class="py-10">
+    <main class="py-md-10 py-7">
       <!-- new arrival -->
       <section class="container pb-10">
         <!-- 標題 -->
-        <div class="text-center mb-6">
+        <div class="text-center mb-md-6 mb-5">
           <div class="mb-3">
-            <h2 class="display-2 text-neutral-900 fw-bold lh-1p2">
+            <h2 class="display-md-2 fs-2 text-neutral-900 fw-bold lh-1p2">
               New Arrival
             </h2>
           </div>
@@ -270,15 +283,71 @@
         <!-- 照片 -->
         <div>
           <ul class="list-unstyled d-flex gap-1">
-            <li class="d-flex gap-1">
-              <a href="">
-                <img src="./img/inspiration-1.png" alt="照片" title="照片" />
-              </a>
-              <a href="">
+            <li class="d-flex gap-1 flex-column">
+              <div class="d-flex gap-1">
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+              </div>
+              <a  href="">
                 <img src="./img/inspiration-1.png" alt="照片" title="照片" />
               </a>
             </li>
+            <li class="d-flex gap-1 flex-column">
+              <div class="d-flex gap-1">
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+              </div>
+              <div class="d-flex gap-1">
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+              </div>
+              <div class="d-flex gap-1">
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+              </div>
+            </li>
+            <li class="d-flex gap-1 flex-column">
+              <a  href="">
+                <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+              </a>
+              <div class="d-flex gap-1">
+                <a  href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+                <a href="">
+                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                </a>
+              </div>
+
+            </li>
           </ul>
+        </div>
+      </section>
+      <!-- 優惠 -->
+      <section class="pt-8">
+        <div class="py-5 bg-primary-200 d-flex gap-5 justify-content-center align-items-center">
+          <h2 class="fs-4 text-neutral-900 fw-bold lh-1p2">
+            加入會員取得 9 折優惠
+          </h2>
+          <a class="btn btn-large btn-neutral-filled" href="">
+            馬上註冊
+          </a>
         </div>
       </section>
     <!-- footer -->

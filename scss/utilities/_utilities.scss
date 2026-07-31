@@ -32,12 +32,6 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes,
     ),
-    "max-height-c": (
-      responsive: true,
-      property: max-height,
-      class: max-height,
-      values: $max-height-c,
-    ),
     "max-width-c": (
       responsive: true,
       property: max-width,

@@ -151,6 +151,8 @@ $spacing-84: $general-size-base * 5.25;
 $spacing-118: $general-size-base * 7.375;
 /* 6px */
 $spacing-6: 6px;
+/* 62px */
+$spacing-62: $general-size-base * 3.875;
 
 /* 
   =============
@@ -168,12 +170,11 @@ $radius-md: $general-size-base * 0.75;
   !!!!! max-height !!!!!
   ======================
 */
-$max-h-8: $general-size-base * 0.5;
 
 /* 
   ======================
   !!!!! max-width !!!!!
   ======================
 */
-$max-w-8: $general-size-base * 0.5;
-$max-w-24: $general-size-base * 1.5;
+$max-w-300: $general-size-base * 18.75;
+$max-w-600: $general-size-base * 37.5;

@@ -61,6 +61,7 @@ $spacers: (
   15: $spacing-84,
   16: $spacing-118,
   17: $spacing-6,
+  18: $spacing-62,
 );
 
 $font-sizes: (
@@ -83,15 +84,11 @@ $font-sizes: (
   6: $fs-6,
   7: $fs-7,
   8: $fs-8,
-);
-
-$max-height-c: (
-  1: $max-h-8,
 );
 
 $max-width-c: (
-  1: $max-w-8,
-  2: $max-w-24,
+  1: $max-w-300,
+  2: $max-w-600,
 );
 
 /*
@@ -144,4 +141,5 @@ fs-
 #15:84
 #16:118
 #17:6
+#18:62
 */

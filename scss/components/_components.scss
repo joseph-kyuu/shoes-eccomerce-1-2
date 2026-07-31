@@ -65,14 +65,14 @@
 .btn-primary-200 {
   @include button-version(
     $primary-100,
-    null,
-    null,
+    0px,
+    0px,
     $neutral-900,
     $primary-200,
-    null,
+    0px,
     $neutral-900,
     $primary-200,
-    null,
+    0px,
     $neutral-900
   );
 }

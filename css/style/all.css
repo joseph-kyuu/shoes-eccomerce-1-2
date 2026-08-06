@@ -8691,6 +8691,10 @@ textarea.form-control-lg {
   background-color: #e8fec5;
 }
 
+.active-2 {
+  background-color: #c0fa73;
+}
+
 .bg-hero {
   background: url(../../img/banner-sm.png);
   background-size: cover;
@@ -8721,6 +8725,20 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
   }
 }
+.products-list-menu:hover {
+  color: #57a203 !important;
+}
+.products-list-menu:active {
+  color: #57a203 !important;
+}
+
+.pagination-state:hover {
+  background: #c0fa73;
+}
+.pagination-state:active {
+  background: #c0fa73;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -12431,6 +12449,10 @@ textarea.form-control-lg {
   max-width: 37.5rem !important;
 }
 
+.max-width-3 {
+  max-width: 2.5rem !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -14257,6 +14279,9 @@ textarea.form-control-lg {
   }
   .max-width-sm-2 {
     max-width: 37.5rem !important;
+  }
+  .max-width-sm-3 {
+    max-width: 2.5rem !important;
   }
 }
 @media (min-width: 768px) {
@@ -16086,6 +16111,9 @@ textarea.form-control-lg {
   .max-width-md-2 {
     max-width: 37.5rem !important;
   }
+  .max-width-md-3 {
+    max-width: 2.5rem !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -17913,6 +17941,9 @@ textarea.form-control-lg {
   }
   .max-width-lg-2 {
     max-width: 37.5rem !important;
+  }
+  .max-width-lg-3 {
+    max-width: 2.5rem !important;
   }
 }
 @media (min-width: 1200px) {
@@ -19742,6 +19773,9 @@ textarea.form-control-lg {
   .max-width-xl-2 {
     max-width: 37.5rem !important;
   }
+  .max-width-xl-3 {
+    max-width: 2.5rem !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -21569,6 +21603,9 @@ textarea.form-control-lg {
   }
   .max-width-xxl-2 {
     max-width: 37.5rem !important;
+  }
+  .max-width-xxl-3 {
+    max-width: 2.5rem !important;
   }
 }
 @media print {

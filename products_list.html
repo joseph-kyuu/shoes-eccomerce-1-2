@@ -6,5 +6,408 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style/all.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- 電腦版 -->
+      <nav class="container py-sm-4 py-3">
+        <ul
+          class="list-unstyled d-flex justify-content-between align-items-center"
+        >
+          <li>
+            <ul class="list-unstyled d-flex align-items-center">
+              <li class="me-8">
+                <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+              </li>
+              <li class="me-7 d-none d-sm-flex">
+                <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
+                  >商品列表</a
+                >
+              </li>
+              <li class="me-7 d-none d-sm-flex">
+                <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
+                  >品牌故事</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="p-3" href="#">
+              <img src="./img/svg/icon/person.svg" alt="會員登入標誌" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- 手機版 -->
+      <nav class="d-sm-none">
+        <ul class="list-unstyled d-flex text-center">
+          <li class="flex-grow-1">
+            <a class="py-3 btn-primary-200 active-1" href="">商品列表</a>
+          </li>
+          <li class="flex-grow-1">
+            <a class="py-3 btn-primary-200" href="">品牌故事</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="py-6">
+      <!-- toast -->
+      <section class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a class="d-inline-block fs-6 text-neutral-600 fw-medium" href="#"
+                >首頁</a
+              >
+            </li>
+            <li class="breadcrumb-item">
+              <a class="d-inline-block fs-6 text-neutral-600 fw-medium" href="#"
+                >女鞋</a
+              >
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a class="d-inline-block fs-6 text-neutral-900 fw-medium" href="#"
+                >所有商品</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </section>
+      <!-- 標題 -->
+      <section class="container py-2 mb-5">
+        <h2 class="fs-3 text-neutral-900 fw-bold lh-1p2">女鞋</h2>
+      </section>
+      <!-- 商品清單 -->
+      <section class="container">
+        <div class="row">
+          <!-- 選單 -->
+          <div class="col-2">
+            <ul class="list-unstyled">
+              <li class="mb-4">
+                <a class="py-2 fs-6 text-primary-400 fw-medium" href=""
+                  >所有商品</a
+                >
+              </li>
+              <li class="mb-4">
+                <a class="py-2 fs-6 text-neutral-900 fw-medium" href=""
+                  >慢跑鞋</a
+                >
+              </li>
+              <li class="mb-4">
+                <a class="py-2 fs-6 text-neutral-900 fw-medium" href=""
+                  >滑板鞋</a
+                >
+              </li>
+              <li class="mb-4">
+                <a class="py-2 fs-6 text-neutral-900 fw-medium" href=""
+                  >厚底鞋</a
+                >
+              </li>
+              <li class="mb-4">
+                <a class="py-2 fs-6 text-neutral-900 fw-medium" href=""
+                  >限定 / 聯名企劃</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- 商品、分頁 -->
+          <div class="col">
+            <!-- 商品 -->
+            <ul class="list-unstyled row row-cols-3 row-gap-8 mb-8">
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+              <li class="col">
+                <a href="#">
+                  <div class="mb-3">
+                    <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                  </div>
+                  <div>
+                    <div class="mb-1">
+                      <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                        PLATFORM 404
+                      </h2>
+                    </div>
+                    <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- 分頁 -->
+            <nav>
+              <ul
+                class="list-unstyled d-flex justify-content-center align-items-center gap-3"
+              >
+                <li>
+                  <a class="p-2" href="#">
+                    <svg
+                      class="text-neutral-400 d-flex justify-content-center align-items-center"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.1926 2.05764C14.2508 2.1157 14.297 2.18467 14.3285 2.2606C14.36 2.33653 14.3763 2.41793 14.3763 2.50014C14.3763 2.58235 14.36 2.66375 14.3285 2.73968C14.297 2.81561 14.2508 2.88458 14.1926 2.94264L7.13389 10.0001L14.1926 17.0576C14.31 17.175 14.3759 17.3342 14.3759 17.5001C14.3759 17.6661 14.31 17.8253 14.1926 17.9426C14.0753 18.06 13.9161 18.1259 13.7501 18.1259C13.5842 18.1259 13.425 18.06 13.3076 17.9426L5.80764 10.4426C5.74944 10.3846 5.70326 10.3156 5.67175 10.2397C5.64024 10.1638 5.62402 10.0824 5.62402 10.0001C5.62402 9.91793 5.64024 9.83653 5.67175 9.7606C5.70326 9.68467 5.74944 9.6157 5.80764 9.55764L13.3076 2.05764C13.3657 1.99944 13.4347 1.95326 13.5106 1.92175C13.5865 1.89024 13.6679 1.87402 13.7501 1.87402C13.8323 1.87402 13.9137 1.89024 13.9897 1.92175C14.0656 1.95326 14.1346 1.99944 14.1926 2.05764Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="px-4 py-2" href="#">1</a>
+                </li>
+                <li>
+                  <a class="px-4 py-2" href="#">2</a>
+                </li>
+                <li>
+                  <a class="px-4 py-2" href="#">3</a>
+                </li>
+                <li>
+                  <a class="px-4 py-2" href="#">...</a>
+                </li>
+                <li>
+                  <a class="px-4 py-2" href="#">10</a>
+                </li>
+                <li>
+                  <a class="p-2" href="#">
+                    <svg
+                      class="text-neutral-900 d-flex justify-content-center align-items-center"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M5.80764 2.05764C5.8657 1.99944 5.93467 1.95326 6.0106 1.92175C6.08653 1.89024 6.16793 1.87402 6.25014 1.87402C6.33235 1.87402 6.41375 1.89024 6.48968 1.92175C6.56561 1.95326 6.63458 1.99944 6.69264 2.05764L14.1926 9.55764C14.2508 9.6157 14.297 9.68467 14.3285 9.7606C14.36 9.83653 14.3763 9.91793 14.3763 10.0001C14.3763 10.0824 14.36 10.1638 14.3285 10.2397C14.297 10.3156 14.2508 10.3846 14.1926 10.4426L6.69264 17.9426C6.57528 18.06 6.41611 18.1259 6.25014 18.1259C6.08417 18.1259 5.925 18.06 5.80764 17.9426C5.69028 17.8253 5.62435 17.6661 5.62435 17.5001C5.62435 17.3342 5.69028 17.175 5.80764 17.0576L12.8664 10.0001L5.80764 2.94264C5.74944 2.88458 5.70326 2.81561 5.67175 2.73968C5.64024 2.66375 5.62402 2.58235 5.62402 2.50014C5.62402 2.41793 5.64024 2.33653 5.67175 2.2606C5.70326 2.18467 5.74944 2.1157 5.80764 2.05764Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="">
+      <!-- 優惠 -->
+      <section class="pt-sm-8 pt-5">
+        <div
+          class="py-5 bg-primary-200 d-flex gap-5 justify-content-center align-items-center"
+        >
+          <h2 class="fs-sm-4 fs-5 text-neutral-900 fw-bold lh-1p2">
+            加入會員取得 9 折優惠
+          </h2>
+          <a class="btn btn-large btn-neutral-filled" href=""> 馬上註冊 </a>
+        </div>
+      </section>
+      <section class="py-sm-10 py-6 px-3">
+        <!-- 選單 -->
+        <nav class="lisy-unstyled container pb-5 border-bottom">
+          <ul
+            class="list-unstyled d-flex justify-content-sm-between align-items-sm-center flex-sm-row flex-column"
+          >
+            <li class="me-8">
+              <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+            </li>
+            <li
+              class="d-flex justify-content-sm-center align-items-sm-center flex-sm-row flex-column"
+            >
+              <a
+                class="me-7 py-3 ps-sm-0 ps-3 fs-6 text-neutral-900 fw-medium"
+                href="#"
+                >商品列表</a
+              >
+              <a
+                class="py-3 fs-6 ps-sm-0 ps-3 text-neutral-900 fw-medium"
+                href="#"
+                >品牌故事</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- copyright -->
+        <div class="pt-6 text-center">
+          <div class="mb-1">
+            <p class="fs-7 text-neutral-600 fw-normal">
+              Copyright ©2025 URBNSTYLE
+            </p>
+          </div>
+          <p class="fs-7 text-neutral-600 fw-normal">All Rights Reserved.</p>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

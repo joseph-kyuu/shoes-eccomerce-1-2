@@ -95,3 +95,7 @@
 .active-1 {
   @include active($primary-200);
 }
+
+.active-2 {
+  @include active($primary-300);
+}

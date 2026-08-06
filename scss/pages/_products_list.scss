@@ -1,0 +1,17 @@
+.products-list-menu {
+  &:hover {
+    color: $primary-400 !important;
+  }
+  &:active {
+    color: $primary-400 !important;
+  }
+}
+
+.pagination-state {
+  &:hover {
+    background: $primary-300;
+  }
+  &:active {
+    background: $primary-300;
+  }
+}

@@ -24,7 +24,7 @@
 
   &:hover {
     background: $hover-background;
-    border: $hover-border;
+    border: $hover-border !important;
     color: $hover-color;
   }
 

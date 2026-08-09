@@ -47,6 +47,7 @@
   @include btn-size($spacing-xs, $spacing-xs, $spacing-s, $spacing-s);
 }
 
+// 綠
 .btn-primary {
   @include button-version(
     $primary-300,
@@ -62,6 +63,7 @@
   );
 }
 
+// 黃 手機版選單
 .btn-primary-200 {
   @include button-version(
     $primary-100,
@@ -77,6 +79,7 @@
   );
 }
 
+// 黑
 .btn-neutral-filled {
   @include button-version(
     $neutral-900,
@@ -89,6 +92,22 @@
     $neutral-700,
     1px solid transparent,
     $neutral-0
+  );
+}
+
+// 白 商品尺寸
+.btn-neutral-outlined-white {
+  @include button-version(
+    $neutral-0,
+    1px solid $neutral-300,
+    $radius-sm,
+    $neutral-900,
+    $neutral-0,
+    1px solid $neutral-600,
+    $neutral-900,
+    $neutral-0,
+    1px solid $neutral-600,
+    $neutral-900
   );
 }
 

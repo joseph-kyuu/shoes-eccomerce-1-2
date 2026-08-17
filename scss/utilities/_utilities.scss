@@ -11,6 +11,11 @@ $utilities: map-merge(
       class: text-neutral,
       values: $neutral-colors,
     ),
+    "text-functional-danger-colors": (
+      property: color,
+      class: text-functional-danger,
+      values: $functional-danger-colors,
+    ),
     "bg-primary-color": (
       property: background-color,
       class: bg-primary,

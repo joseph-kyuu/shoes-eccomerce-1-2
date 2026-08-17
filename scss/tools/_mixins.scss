@@ -35,6 +35,7 @@
   }
 }
 
-@mixin active($active-color) {
-  background-color: $active-color;
+@mixin active($active-bg, $active-border) {
+  background-color: $active-bg;
+  border-color: $active-border;
 }

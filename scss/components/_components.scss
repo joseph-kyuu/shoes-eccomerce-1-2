@@ -95,7 +95,7 @@
   );
 }
 
-// 白 商品尺寸
+// 白底灰邊 商品尺寸
 .btn-neutral-outlined-white {
   @include button-version(
     $neutral-0,
@@ -111,10 +111,35 @@
   );
 }
 
+// 白底黑邊 收藏試穿
+.btn-neutral-outlined-white-icon {
+  @include button-version(
+    $neutral-0,
+    1px solid $neutral-900,
+    $radius-sm,
+    $neutral-900,
+    $neutral-900,
+    1px solid $neutral-900,
+    $neutral-0,
+    $neutral-900,
+    1px solid $neutral-900,
+    $neutral-0
+  );
+}
+
 .active-1 {
-  @include active($primary-200);
+  @include active($primary-200, transparent);
 }
 
 .active-2 {
-  @include active($primary-300);
+  @include active($primary-300, transparent);
+}
+
+.active-3 {
+  @include active($neutral-0, $neutral-900);
+}
+
+.btn-disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }

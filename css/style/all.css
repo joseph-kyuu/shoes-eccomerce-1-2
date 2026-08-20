@@ -12531,6 +12531,10 @@ textarea.form-control-lg {
   max-width: 19.125rem !important;
 }
 
+.max-width-9 {
+  max-width: 7.5rem !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -14375,6 +14379,9 @@ textarea.form-control-lg {
   }
   .max-width-sm-8 {
     max-width: 19.125rem !important;
+  }
+  .max-width-sm-9 {
+    max-width: 7.5rem !important;
   }
 }
 @media (min-width: 768px) {
@@ -16222,6 +16229,9 @@ textarea.form-control-lg {
   .max-width-md-8 {
     max-width: 19.125rem !important;
   }
+  .max-width-md-9 {
+    max-width: 7.5rem !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -18067,6 +18077,9 @@ textarea.form-control-lg {
   }
   .max-width-lg-8 {
     max-width: 19.125rem !important;
+  }
+  .max-width-lg-9 {
+    max-width: 7.5rem !important;
   }
 }
 @media (min-width: 1200px) {
@@ -19914,6 +19927,9 @@ textarea.form-control-lg {
   .max-width-xl-8 {
     max-width: 19.125rem !important;
   }
+  .max-width-xl-9 {
+    max-width: 7.5rem !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -21759,6 +21775,9 @@ textarea.form-control-lg {
   }
   .max-width-xxl-8 {
     max-width: 19.125rem !important;
+  }
+  .max-width-xxl-9 {
+    max-width: 7.5rem !important;
   }
 }
 @media print {

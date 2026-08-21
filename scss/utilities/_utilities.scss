@@ -22,6 +22,7 @@ $utilities: map-merge(
       values: $primary-colors,
     ),
     "bg-neutral-color": (
+      responsive: true,
       property: background-color,
       class: bg-neutral,
       values: $neutral-colors,

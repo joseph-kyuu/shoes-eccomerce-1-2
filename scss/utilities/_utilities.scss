@@ -43,6 +43,11 @@ $utilities: map-merge(
       class: max-width,
       values: $max-width-c,
     ),
+    "radius": (
+      property: border-radius,
+      class: radius,
+      values: $radius,
+    ),
     "margin": (
       responsive: true,
       property: margin,

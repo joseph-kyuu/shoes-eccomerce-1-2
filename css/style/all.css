@@ -14661,6 +14661,36 @@ textarea.form-control-lg {
   .text-sm-center {
     text-align: center !important;
   }
+  .bg-neutral-sm-0 {
+    background-color: #ffffff !important;
+  }
+  .bg-neutral-sm-100 {
+    background-color: #f8f9fa !important;
+  }
+  .bg-neutral-sm-200 {
+    background-color: #e9ecef !important;
+  }
+  .bg-neutral-sm-300 {
+    background-color: #dee2e6 !important;
+  }
+  .bg-neutral-sm-400 {
+    background-color: #ced4da !important;
+  }
+  .bg-neutral-sm-500 {
+    background-color: #adb5bd !important;
+  }
+  .bg-neutral-sm-600 {
+    background-color: #6c757d !important;
+  }
+  .bg-neutral-sm-700 {
+    background-color: #495057 !important;
+  }
+  .bg-neutral-sm-800 {
+    background-color: #343a40 !important;
+  }
+  .bg-neutral-sm-900 {
+    background-color: #212529 !important;
+  }
   .max-width-sm-1 {
     max-width: 18.75rem !important;
   }
@@ -16592,6 +16622,36 @@ textarea.form-control-lg {
   }
   .text-md-center {
     text-align: center !important;
+  }
+  .bg-neutral-md-0 {
+    background-color: #ffffff !important;
+  }
+  .bg-neutral-md-100 {
+    background-color: #f8f9fa !important;
+  }
+  .bg-neutral-md-200 {
+    background-color: #e9ecef !important;
+  }
+  .bg-neutral-md-300 {
+    background-color: #dee2e6 !important;
+  }
+  .bg-neutral-md-400 {
+    background-color: #ced4da !important;
+  }
+  .bg-neutral-md-500 {
+    background-color: #adb5bd !important;
+  }
+  .bg-neutral-md-600 {
+    background-color: #6c757d !important;
+  }
+  .bg-neutral-md-700 {
+    background-color: #495057 !important;
+  }
+  .bg-neutral-md-800 {
+    background-color: #343a40 !important;
+  }
+  .bg-neutral-md-900 {
+    background-color: #212529 !important;
   }
   .max-width-md-1 {
     max-width: 18.75rem !important;
@@ -18525,6 +18585,36 @@ textarea.form-control-lg {
   .text-lg-center {
     text-align: center !important;
   }
+  .bg-neutral-lg-0 {
+    background-color: #ffffff !important;
+  }
+  .bg-neutral-lg-100 {
+    background-color: #f8f9fa !important;
+  }
+  .bg-neutral-lg-200 {
+    background-color: #e9ecef !important;
+  }
+  .bg-neutral-lg-300 {
+    background-color: #dee2e6 !important;
+  }
+  .bg-neutral-lg-400 {
+    background-color: #ced4da !important;
+  }
+  .bg-neutral-lg-500 {
+    background-color: #adb5bd !important;
+  }
+  .bg-neutral-lg-600 {
+    background-color: #6c757d !important;
+  }
+  .bg-neutral-lg-700 {
+    background-color: #495057 !important;
+  }
+  .bg-neutral-lg-800 {
+    background-color: #343a40 !important;
+  }
+  .bg-neutral-lg-900 {
+    background-color: #212529 !important;
+  }
   .max-width-lg-1 {
     max-width: 18.75rem !important;
   }
@@ -20457,6 +20547,36 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
+  .bg-neutral-xl-0 {
+    background-color: #ffffff !important;
+  }
+  .bg-neutral-xl-100 {
+    background-color: #f8f9fa !important;
+  }
+  .bg-neutral-xl-200 {
+    background-color: #e9ecef !important;
+  }
+  .bg-neutral-xl-300 {
+    background-color: #dee2e6 !important;
+  }
+  .bg-neutral-xl-400 {
+    background-color: #ced4da !important;
+  }
+  .bg-neutral-xl-500 {
+    background-color: #adb5bd !important;
+  }
+  .bg-neutral-xl-600 {
+    background-color: #6c757d !important;
+  }
+  .bg-neutral-xl-700 {
+    background-color: #495057 !important;
+  }
+  .bg-neutral-xl-800 {
+    background-color: #343a40 !important;
+  }
+  .bg-neutral-xl-900 {
+    background-color: #212529 !important;
+  }
   .max-width-xl-1 {
     max-width: 18.75rem !important;
   }
@@ -22388,6 +22508,36 @@ textarea.form-control-lg {
   }
   .text-xxl-center {
     text-align: center !important;
+  }
+  .bg-neutral-xxl-0 {
+    background-color: #ffffff !important;
+  }
+  .bg-neutral-xxl-100 {
+    background-color: #f8f9fa !important;
+  }
+  .bg-neutral-xxl-200 {
+    background-color: #e9ecef !important;
+  }
+  .bg-neutral-xxl-300 {
+    background-color: #dee2e6 !important;
+  }
+  .bg-neutral-xxl-400 {
+    background-color: #ced4da !important;
+  }
+  .bg-neutral-xxl-500 {
+    background-color: #adb5bd !important;
+  }
+  .bg-neutral-xxl-600 {
+    background-color: #6c757d !important;
+  }
+  .bg-neutral-xxl-700 {
+    background-color: #495057 !important;
+  }
+  .bg-neutral-xxl-800 {
+    background-color: #343a40 !important;
+  }
+  .bg-neutral-xxl-900 {
+    background-color: #212529 !important;
   }
   .max-width-xxl-1 {
     max-width: 18.75rem !important;

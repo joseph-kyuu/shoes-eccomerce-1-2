@@ -1,0 +1,19 @@
+.bg-brand {
+  background: url(../../img/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.story {
+  text-underline-offset: $spacing-xs;
+
+  &:hover {
+    color: $primary-500 !important;
+    border-color: $primary-500 !important;
+  }
+}

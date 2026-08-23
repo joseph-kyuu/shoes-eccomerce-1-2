@@ -8946,7 +8946,7 @@ textarea.form-control-lg {
 }
 
 .bg-brand {
-  background: url(../../img/hero.png);
+  background: url(../../img/hero-sm.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8964,6 +8964,14 @@ ul {
   border-color: #477a11 !important;
 }
 
+@media (min-width: 576px) {
+  .bg-sm-brand {
+    background: url(../../img/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 .align-baseline {
   vertical-align: baseline !important;
 }

@@ -21,6 +21,12 @@ $neutral-colors: (
   900: $neutral-900,
 );
 
+$functional-danger-colors: (
+  100: $functional-dnager-100,
+  200: $functional-dnager-200,
+  300: $functional-dnager-300,
+);
+
 $line-height: (
   1p5: $lh-1p5,
   1p2: $lh-1p2,
@@ -62,6 +68,8 @@ $spacers: (
   16: $spacing-118,
   17: $spacing-6,
   18: $spacing-62,
+  19: $spacing-120,
+  20: $spacing-150,
 );
 
 $font-sizes: (
@@ -89,6 +97,21 @@ $font-sizes: (
 $max-width-c: (
   1: $max-w-300,
   2: $max-w-600,
+  3: $max-w-40,
+  4: $max-w-746,
+  5: $max-w-64,
+  6: $max-w-49p,
+  7: $max-w-160,
+  8: $max-w-306,
+  9: $max-w-120,
+  10: $max-w-526,
+  11: $max-w-856,
+  12: $max-w-1076,
+);
+
+$radius: (
+  1: $radius-sm,
+  2: $radius-md,
 );
 
 /*
@@ -142,4 +165,5 @@ fs-
 #16:118
 #17:6
 #18:62
+#19:120
 */

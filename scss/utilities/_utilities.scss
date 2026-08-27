@@ -11,12 +11,18 @@ $utilities: map-merge(
       class: text-neutral,
       values: $neutral-colors,
     ),
+    "text-functional-danger-colors": (
+      property: color,
+      class: text-functional-danger,
+      values: $functional-danger-colors,
+    ),
     "bg-primary-color": (
       property: background-color,
       class: bg-primary,
       values: $primary-colors,
     ),
     "bg-neutral-color": (
+      responsive: true,
       property: background-color,
       class: bg-neutral,
       values: $neutral-colors,
@@ -32,11 +38,26 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes,
     ),
+    "border-color-neutral": (
+      property: border-color,
+      class: border-neutral,
+      values: $neutral-colors,
+    ),
+    "border-color-primary": (
+      property: border-color,
+      class: border-primary,
+      values: $primary-colors,
+    ),
     "max-width-c": (
       responsive: true,
       property: max-width,
       class: max-width,
       values: $max-width-c,
+    ),
+    "radius": (
+      property: border-radius,
+      class: radius,
+      values: $radius,
     ),
     "margin": (
       responsive: true,

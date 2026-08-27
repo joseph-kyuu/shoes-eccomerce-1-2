@@ -24,7 +24,7 @@
 
   &:hover {
     background: $hover-background;
-    border: $hover-border;
+    border: $hover-border !important;
     color: $hover-color;
   }
 
@@ -35,6 +35,34 @@
   }
 }
 
-@mixin active($active-color) {
-  background-color: $active-color;
+@mixin button-version2(
+  $border,
+  $color,
+  $hover-border,
+  $hover-color,
+  $active-border,
+  $active-color
+) {
+  border-bottom: $border;
+  color: $color;
+
+  &:hover {
+    border-bottom: $hover-border !important;
+    color: $hover-color;
+  }
+
+  &:active {
+    border-bottom: $active-border !important;
+    color: $active-color !important;
+  }
+}
+
+@mixin active($active-bg, $active-border) {
+  background-color: $active-bg;
+  border-color: $active-border;
+}
+
+@mixin active2($active-color, $active-border) {
+  color: $active-color;
+  border-bottom-color: $active-border;
 }

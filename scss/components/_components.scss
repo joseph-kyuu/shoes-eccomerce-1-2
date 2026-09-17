@@ -42,6 +42,11 @@
   @include btn-size($spacing-m, $spacing-m, $spacing-l, $spacing-l);
 }
 
+.btn-medium {
+  /* 內間距 */
+  @include btn-size($spacing-m, $spacing-m, $spacing-l, $spacing-l);
+}
+
 .btn-small {
   /* 內間距 */
   @include btn-size($spacing-xs, $spacing-xs, $spacing-s, $spacing-s);
@@ -127,6 +132,18 @@
   );
 }
 
+// 下底線 登入註冊
+.btn-neutral-outlined-transparent {
+  @include button-version2(
+    2px solid $neutral-300,
+    $neutral-600,
+    2px solid $neutral-900,
+    $neutral-900,
+    2px solid $neutral-900,
+    $neutral-900
+  );
+}
+
 .active-1 {
   @include active($primary-200, transparent);
 }
@@ -139,7 +156,22 @@
   @include active($neutral-0, $neutral-900);
 }
 
+.active-4 {
+  @include active2($neutral-900, $neutral-900);
+}
+
 .btn-disabled {
   opacity: 0.4;
   pointer-events: none;
+}
+
+// input
+.form-control::placeholder {
+  color: $neutral-900;
+  font-size: $fs-6;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
 }

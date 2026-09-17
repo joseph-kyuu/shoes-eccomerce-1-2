@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>首頁</title>
     <link rel="stylesheet" href="./css/style/all.css" />
   </head>
   <body>
@@ -17,22 +17,28 @@
           <li>
             <ul class="list-unstyled d-flex align-items-center">
               <li class="me-8">
-                <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+                <a href="./index.html">
+                  <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+                </a>
               </li>
               <li class="me-7 d-none d-sm-flex">
-                <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
+                <a
+                  class="py-3 fs-6 text-neutral-900 fw-medium"
+                  href="./products_list.html"
                   >商品列表</a
                 >
               </li>
               <li class="me-7 d-none d-sm-flex">
-                <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
+                <a
+                  class="py-3 fs-6 text-neutral-900 fw-medium"
+                  href="./brand.html"
                   >品牌故事</a
                 >
               </li>
             </ul>
           </li>
           <li>
-            <a class="p-3" href="#">
+            <a class="p-3" href="./login.html">
               <img src="./img/svg/icon/person.svg" alt="會員登入標誌" />
             </a>
           </li>
@@ -42,10 +48,12 @@
       <nav class="d-sm-none">
         <ul class="list-unstyled d-flex text-center">
           <li class="flex-grow-1">
-            <a class="py-3 btn-primary-200 active-1" href="">商品列表</a>
+            <a class="py-3 btn-primary-200 active-1" href="./products_list.html"
+              >商品列表</a
+            >
           </li>
           <li class="flex-grow-1">
-            <a class="py-3 btn-primary-200" href="">品牌故事</a>
+            <a class="py-3 btn-primary-200" href="./brand.html">品牌故事</a>
           </li>
         </ul>
       </nav>
@@ -62,11 +70,9 @@
               Your Step, Your Statement
             </h2>
           </div>
-          <input
-            class="btn btn-large btn-primary"
-            type="button"
-            value="立即選購"
-          />
+          <a class="btn btn-large btn-primary" href="./products_list.html"
+            >立即選購</a
+          >
         </div>
       </section>
     </header>
@@ -88,7 +94,7 @@
           class="list-unstyled row row-cols-2 row-gap-md-7 row-gap-5 mx-md-n3 mx-n17"
         >
           <li class="col px-md-3 px-17">
-            <a href="">
+            <a href="./product_detail.html">
               <div class="mb-md-3 mb-2">
                 <img src="./img/new-1.png" alt="商品照片" title="商品照片" />
               </div>
@@ -101,41 +107,41 @@
             </a>
           </li>
           <li class="col px-md-3 px-17">
-            <a href="">
+            <a href="./product_detail.html">
               <div class="mb-md-3 mb-2">
-                <img src="./img/new-1.png" alt="商品照片" title="商品照片" />
+                <img src="./img/new-2.png" alt="商品照片" title="商品照片" />
               </div>
               <div>
                 <h3 class="fs-md-5 fs-6 text-neutral-900 fw-bold lh-1p2">
-                  Monoverse
+                  PLATFORM 404
                 </h3>
-                <h3 class="fs-6 text-neutral-900 fs-medium">NT$3,600</h3>
+                <h3 class="fs-6 text-neutral-900 fs-medium">NT$2,600</h3>
               </div>
             </a>
           </li>
           <li class="col px-md-3 px-17">
-            <a href="">
+            <a href="./product_detail.html">
               <div class="mb-md-3 mb-2">
-                <img src="./img/new-1.png" alt="商品照片" title="商品照片" />
+                <img src="./img/new-3.png" alt="商品照片" title="商品照片" />
               </div>
               <div>
                 <h3 class="fs-md-5 fs-6 text-neutral-900 fw-bold lh-1p2">
-                  Monoverse
+                  URBN Force
                 </h3>
-                <h3 class="fs-6 text-neutral-900 fs-medium">NT$3,600</h3>
+                <h3 class="fs-6 text-neutral-900 fs-medium">NT$3,200</h3>
               </div>
             </a>
           </li>
           <li class="col px-md-3 px-17">
-            <a href="">
+            <a href="./product_detail.html">
               <div class="mb-md-3 mb-2">
-                <img src="./img/new-1.png" alt="商品照片" title="商品照片" />
+                <img src="./img/new-4.png" alt="商品照片" title="商品照片" />
               </div>
               <div>
                 <h3 class="fs-md-5 fs-6 text-neutral-900 fw-bold lh-1p2">
-                  Monoverse
+                  Mode90
                 </h3>
-                <h3 class="fs-6 text-neutral-900 fs-medium">NT$3,600</h3>
+                <h3 class="fs-6 text-neutral-900 fs-medium">NT$4,000</h3>
               </div>
             </a>
           </li>
@@ -152,40 +158,60 @@
           class="list-unstyled row row-cols-md-4 row-cols-1 mx-md-n3 mx-n2 no-scrollbar flex-nowrap"
         >
           <li class="col px-md-3 px-2">
-            <div class="position-relative">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-              <span
-                class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
-                >人氣 No.1</span
-              >
-            </div>
+            <a href="./product_detail.html">
+              <div class="position-relative">
+                <img
+                  src="./img/product-3.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
+                <span
+                  class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
+                  >人氣 No.1</span
+                >
+              </div>
+            </a>
           </li>
           <li class="col px-md-3 px-2">
-            <div class="position-relative">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-              <span
-                class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
-                >人氣 No.1</span
-              >
-            </div>
+            <a href="./product_detail.html">
+              <div class="position-relative">
+                <img src="./img/product.png" alt="商品圖片" title="商品圖片" />
+                <span
+                  class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
+                  >人氣 No.1</span
+                >
+              </div>
+            </a>
           </li>
           <li class="col px-md-3 px-2">
-            <div class="position-relative">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-              <span
-                class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
-                >人氣 No.1</span
-              >
-            </div>
+            <a href="./product_detail.html">
+              <div class="position-relative">
+                <img
+                  src="./img/product-6.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
+                <span
+                  class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
+                  >人氣 No.1</span
+                >
+              </div>
+            </a>
           </li>
           <li class="col px-md-3 px-2">
-            <div class="position-relative">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-              <span
-                class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
-                >人氣 No.1</span
-              >
-            </div>
+            <a href="./product_detail.html">
+              <div class="position-relative">
+                <img
+                  src="./img/product-4.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
+                <span
+                  class="py-2 px-3 position-absolute top-0 start-0 fs-7 text-primary-400 fw-medium bg-primary-100"
+                  >人氣 No.1</span
+                >
+              </div>
+            </a>
           </li>
         </ul>
       </section>
@@ -214,11 +240,9 @@
                 新銳漫畫家 Kevin Chen 親自操刀設計，街頭能量全面引爆！
               </p>
             </div>
-            <input
-              class="btn btn-large btn-primary"
-              type="button"
-              value="立即搶購"
-            />
+            <a class="btn btn-large btn-primary" href="./products_list.html">
+              立即搶購
+            </a>
           </div>
           <!-- 分頁按鈕 -->
           <ul
@@ -255,60 +279,68 @@
           class="list-unstyled row row-cols-xl-4 row-cols-2 mx-md-n3 mx-n17 row-gap-xl-0 row-gap-md-5 row-gap-3"
         >
           <li class="col px-md-3 px-17">
-            <div class="py-md-16 py-18 bg-shoes-1">
-              <div class="text-center">
-                <div class="mb-2">
-                  <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
-                    URBN RUNNER
+            <a href="./products_list.html">
+              <div class="py-md-16 py-18 bg-shoes-1">
+                <div class="text-center">
+                  <div class="mb-2">
+                    <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
+                      URBN RUNNER
+                    </p>
+                  </div>
+                  <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
+                    慢跑系列
                   </p>
                 </div>
-                <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
-                  慢跑系列
-                </p>
               </div>
-            </div>
+            </a>
           </li>
           <li class="col px-md-3 px-17">
-            <div class="py-md-16 py-18 bg-shoes-1">
-              <div class="text-center">
-                <div class="mb-2">
-                  <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
-                    URBN RUNNER
+            <a href="./products_list.html">
+              <div class="py-md-16 py-18 bg-shoes-2">
+                <div class="text-center">
+                  <div class="mb-2">
+                    <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
+                      STREETMODE
+                    </p>
+                  </div>
+                  <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
+                    滑板系列
                   </p>
                 </div>
-                <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
-                  慢跑系列
-                </p>
               </div>
-            </div>
+            </a>
           </li>
           <li class="col px-md-3 px-17">
-            <div class="py-md-16 py-18 bg-shoes-1">
-              <div class="text-center">
-                <div class="mb-2">
-                  <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
-                    URBN RUNNER
+            <a href="./products_list.html">
+              <div class="py-md-16 py-18 bg-shoes-3">
+                <div class="text-center">
+                  <div class="mb-2">
+                    <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
+                      CHUNK DISTRICT
+                    </p>
+                  </div>
+                  <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
+                    厚底系列
                   </p>
                 </div>
-                <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
-                  慢跑系列
-                </p>
               </div>
-            </div>
+            </a>
           </li>
           <li class="col px-md-3 px-17">
-            <div class="py-md-16 py-18 bg-shoes-1">
-              <div class="text-center">
-                <div class="mb-2">
-                  <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
-                    URBN RUNNER
+            <a href="./products_list.html">
+              <div class="py-md-16 py-18 bg-shoes-4">
+                <div class="text-center">
+                  <div class="mb-2">
+                    <p class="fs-md-3 fs-6 text-neutral-0 fw-bold lh-1p2">
+                      COLLAB ZONE
+                    </p>
+                  </div>
+                  <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
+                    聯名企劃
                   </p>
                 </div>
-                <p class="fs-md-4 fs-6 text-neutral-0 fw-bold lh-1p2">
-                  慢跑系列
-                </p>
               </div>
-            </div>
+            </a>
           </li>
         </ul>
       </section>
@@ -325,45 +357,69 @@
               class="d-flex gap-sm-1 gap-4 flex-sm-column flex-nowrap flex-shrink-0 flex-sm-shrink-1"
             >
               <div class="d-flex gap-sm-1 gap-4">
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="./products_list.html"
+                >
                   <img src="./img/inspiration-1.png" alt="照片" title="照片" />
                 </a>
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-2.png" alt="照片" title="照片" />
                 </a>
               </div>
               <a
                 class="flex-shrink-0 flex-sm-shrink-1 max-width-1 max-width-sm-2"
-                href=""
+                href="/products_list.html"
               >
-                <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <img src="./img/inspiration-3.png" alt="照片" title="照片" />
               </a>
             </li>
             <li
               class="d-flex gap-sm-1 gap-4 flex-sm-column flex-shrink-0 flex-sm-shrink-1"
             >
               <div class="d-flex gap-sm-1 gap-4">
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-4.png" alt="照片" title="照片" />
                 </a>
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
-                </a>
-              </div>
-              <div class="d-flex gap-sm-1 gap-4">
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
-                </a>
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-5.png" alt="照片" title="照片" />
                 </a>
               </div>
               <div class="d-flex gap-sm-1 gap-4">
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-6.png" alt="照片" title="照片" />
                 </a>
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-7.png" alt="照片" title="照片" />
+                </a>
+              </div>
+              <div class="d-flex gap-sm-1 gap-4">
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-8.png" alt="照片" title="照片" />
+                </a>
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-9.png" alt="照片" title="照片" />
                 </a>
               </div>
             </li>
@@ -372,16 +428,22 @@
             >
               <a
                 class="flex-shrink-0 flex-sm-shrink-1 max-width-1 max-width-sm-2"
-                href=""
+                href="/products_list.html"
               >
-                <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <img src="./img/inspiration-10.png" alt="照片" title="照片" />
               </a>
               <div class="d-flex gap-sm-1 gap-4">
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-11.png" alt="照片" title="照片" />
                 </a>
-                <a class="flex-shrink-0 flex-sm-shrink-1 max-width-1" href="">
-                  <img src="./img/inspiration-1.png" alt="照片" title="照片" />
+                <a
+                  class="flex-shrink-0 flex-sm-shrink-1 max-width-1"
+                  href="/products_list.html"
+                >
+                  <img src="./img/inspiration-12.png" alt="照片" title="照片" />
                 </a>
               </div>
             </li>
@@ -399,7 +461,9 @@
           <h2 class="fs-sm-4 fs-5 text-neutral-900 fw-bold lh-1p2">
             加入會員取得 9 折優惠
           </h2>
-          <a class="btn btn-large btn-neutral-filled" href=""> 馬上註冊 </a>
+          <a class="btn btn-large btn-neutral-filled" href="./login.html">
+            馬上註冊
+          </a>
         </div>
       </section>
       <section class="py-sm-10 py-6 px-3">
@@ -409,19 +473,21 @@
             class="list-unstyled d-flex justify-content-sm-between align-items-sm-center flex-sm-row flex-column"
           >
             <li class="me-8">
-              <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+              <a href="./index.html">
+                <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+              </a>
             </li>
             <li
               class="d-flex justify-content-sm-center align-items-sm-center flex-sm-row flex-column"
             >
               <a
                 class="me-7 py-3 ps-sm-0 ps-3 fs-6 text-neutral-900 fw-medium"
-                href="#"
+                href="./products_list.html"
                 >商品列表</a
               >
               <a
                 class="py-3 fs-6 ps-sm-0 ps-3 text-neutral-900 fw-medium"
-                href="#"
+                href="./brand.html"
                 >品牌故事</a
               >
             </li>

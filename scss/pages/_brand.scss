@@ -1,0 +1,28 @@
+.bg-brand {
+  background: url(../../img/hero-sm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.story {
+  text-underline-offset: $spacing-xs;
+
+  &:hover {
+    color: $primary-500 !important;
+    border-color: $primary-500 !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .bg-sm-brand {
+    background: url(../../img/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

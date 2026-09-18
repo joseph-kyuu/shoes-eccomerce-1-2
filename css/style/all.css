@@ -13026,6 +13026,10 @@ ul {
   max-width: 67.25rem !important;
 }
 
+.max-width-13 {
+  max-width: 100% !important;
+}
+
 .radius-1 {
   border-radius: 0.25rem !important;
 }
@@ -15081,6 +15085,9 @@ ul {
   .max-width-sm-12 {
     max-width: 67.25rem !important;
   }
+  .max-width-sm-13 {
+    max-width: 100% !important;
+  }
 }
 @media (min-width: 768px) {
   .float-md-start {
@@ -17128,6 +17135,9 @@ ul {
   }
   .max-width-md-12 {
     max-width: 67.25rem !important;
+  }
+  .max-width-md-13 {
+    max-width: 100% !important;
   }
 }
 @media (min-width: 992px) {
@@ -19177,6 +19187,9 @@ ul {
   .max-width-lg-12 {
     max-width: 67.25rem !important;
   }
+  .max-width-lg-13 {
+    max-width: 100% !important;
+  }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
@@ -21225,6 +21238,9 @@ ul {
   .max-width-xl-12 {
     max-width: 67.25rem !important;
   }
+  .max-width-xl-13 {
+    max-width: 100% !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -23272,6 +23288,9 @@ ul {
   }
   .max-width-xxl-12 {
     max-width: 67.25rem !important;
+  }
+  .max-width-xxl-13 {
+    max-width: 100% !important;
   }
 }
 @media print {

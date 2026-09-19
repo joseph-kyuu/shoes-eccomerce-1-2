@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>商品細節</title>
     <link rel="stylesheet" href="./css/style/all.css" />
   </head>
   <body>
@@ -17,22 +17,28 @@
           <li>
             <ul class="list-unstyled d-flex align-items-center">
               <li class="me-8">
-                <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+                <a href="./index.html">
+                  <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+                </a>
               </li>
               <li class="me-7 d-none d-sm-flex">
-                <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
+                <a
+                  class="py-3 fs-6 text-neutral-900 fw-medium"
+                  href="./products_list.html"
                   >商品列表</a
                 >
               </li>
               <li class="me-7 d-none d-sm-flex">
-                <a class="py-3 fs-6 text-neutral-900 fw-medium" href="#"
+                <a
+                  class="py-3 fs-6 text-neutral-900 fw-medium"
+                  href="./brand.html"
                   >品牌故事</a
                 >
               </li>
             </ul>
           </li>
           <li>
-            <a class="p-3" href="#">
+            <a class="p-3" href="./login.html">
               <img src="./img/svg/icon/person.svg" alt="會員登入標誌" />
             </a>
           </li>
@@ -42,10 +48,12 @@
       <nav class="d-sm-none">
         <ul class="list-unstyled d-flex text-center">
           <li class="flex-grow-1">
-            <a class="py-3 btn-primary-200 active-1" href="">商品列表</a>
+            <a class="py-3 btn-primary-200 active-1" href="./products_list.html"
+              >商品列表</a
+            >
           </li>
           <li class="flex-grow-1">
-            <a class="py-3 btn-primary-200" href="">品牌故事</a>
+            <a class="py-3 btn-primary-200" href="./brand.html">品牌故事</a>
           </li>
         </ul>
       </nav>
@@ -56,9 +64,9 @@
       <section class="container py-sm-10">
         <div class="row flex-lg-row flex-column">
           <!-- 圖片 -->
-          <div class="col-lg-7 col mb-5 mb-lg-0 px-0">
-            <ul class="list-unstyled d-flex gap-2 flex-wrap">
-              <li class="max-width-sm-6 w-100">
+          <div class="col-lg-7 col mb-5 mb-lg-0 px-sm-3 px-0">
+            <ul class="list-unstyled row row-cols-sm-2 flex-wrap g-sm-2 g-0">
+              <li class="col">
                 <a href="#">
                   <img
                     class="w-100"
@@ -68,43 +76,44 @@
                   />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-01.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-02.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-03.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-04.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-05.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-06.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
-              <li class="max-width-6 d-sm-flex d-none">
+              <li class="col d-sm-flex d-none">
                 <a href="#">
-                  <img src="./img/image-0.png" alt="鞋子" title="鞋子" />
+                  <img src="./img/image-07.png" alt="鞋子" title="鞋子" />
                 </a>
               </li>
             </ul>
           </div>
+          <!-- 說明 -->
           <div class="col">
             <!-- toast、標題、價格、介紹 -->
             <section class="mb-6">
@@ -193,12 +202,16 @@
                     </a>
                   </li>
                   <li class="max-width-5">
-                    <a href="">
+                    <a href="#">
                       <div class="mb-1">
-                        <img src="./img/product.png" alt="鞋子" title="鞋子" />
+                        <img
+                          src="./img/product-1.png"
+                          alt="鞋子"
+                          title="鞋子"
+                        />
                       </div>
                       <p class="fs-6 text-neutral-600 fw-medium text-center">
-                        黑色
+                        卡其色
                       </p>
                     </a>
                   </li>
@@ -253,12 +266,12 @@
                     <input
                       type="checkbox"
                       class="btn-check"
-                      id="btncheck3"
+                      id="btncheck4"
                       autocomplete="off"
                     />
                     <label
                       class="btn btn-large btn-neutral-outlined-white text-center fw-medium w-100"
-                      for="btncheck3"
+                      for="btncheck4"
                       >35(22.5cm)</label
                     >
                   </li>
@@ -266,12 +279,12 @@
                     <input
                       type="checkbox"
                       class="btn-check"
-                      id="btncheck3"
+                      id="btncheck5"
                       autocomplete="off"
                     />
                     <label
                       class="btn btn-large btn-neutral-outlined-white text-center fw-medium w-100"
-                      for="btncheck3"
+                      for="btncheck5"
                       >35(22.5cm)</label
                     >
                   </li>
@@ -279,12 +292,12 @@
                     <input
                       type="checkbox"
                       class="btn-check"
-                      id="btncheck3"
+                      id="btncheck6"
                       autocomplete="off"
                     />
                     <label
                       class="btn btn-large btn-neutral-outlined-white text-center fw-medium w-100"
-                      for="btncheck3"
+                      for="btncheck6"
                       >35(22.5cm)</label
                     >
                   </li>
@@ -292,12 +305,12 @@
                     <input
                       type="checkbox"
                       class="btn-check"
-                      id="btncheck3"
+                      id="btncheck7"
                       autocomplete="off"
                     />
                     <label
                       class="btn btn-large btn-neutral-outlined-white text-center fw-medium w-100"
-                      for="btncheck3"
+                      for="btncheck7"
                       >35(22.5cm)</label
                     >
                   </li>
@@ -305,12 +318,12 @@
                     <input
                       type="checkbox"
                       class="btn-check"
-                      id="btncheck3"
+                      id="btncheck8"
                       autocomplete="off"
                     />
                     <label
                       class="btn btn-large btn-neutral-outlined-white text-center fw-medium w-100"
-                      for="btncheck3"
+                      for="btncheck8"
                       >35(22.5cm)</label
                     >
                   </li>
@@ -318,12 +331,12 @@
                     <input
                       type="checkbox"
                       class="btn-check"
-                      id="btncheck3"
+                      id="btncheck9"
                       autocomplete="off"
                     />
                     <label
                       class="btn btn-large btn-neutral-outlined-white text-center fw-medium w-100 btn-disabled"
-                      for="btncheck3"
+                      for="btncheck9"
                       >35(22.5cm)</label
                     >
                   </li>
@@ -363,7 +376,7 @@
                 </li>
                 <li class="w-100">
                   <a
-                    class="btn btn-large fs-6 fw-medium btn-neutral-outlined-white-icon w-100"
+                    class="btn btn-large fs-6 fw-medium btn-neutral-outlined-white-icon w-100 text-neutral-0 bg-neutral-900"
                     href="#"
                   >
                     <span
@@ -374,16 +387,16 @@
                           width="20"
                           height="20"
                           viewBox="0 0 20 20"
-                          fill="currentColor"
+                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M9.99987 3.43506L9.10362 2.51381C6.99987 0.351311 3.14237 1.09756 1.74987 3.81631C1.09612 5.09506 0.948619 6.94131 2.14237 9.29756C3.29237 11.5663 5.68487 14.2838 9.99987 17.2438C14.3149 14.2838 16.7061 11.5663 17.8574 9.29756C19.0511 6.94006 18.9049 5.09506 18.2499 3.81631C16.8574 1.09756 12.9999 0.350061 10.8961 2.51256L9.99987 3.43506ZM9.99987 18.7501C-9.16638 6.08506 4.09862 -3.79994 9.77987 1.42881C9.85487 1.49756 9.92862 1.56881 9.99987 1.64256C10.0704 1.56888 10.1438 1.49799 10.2199 1.43006C15.8999 -3.80244 29.1661 6.08381 9.99987 18.7501Z"
+                            d="M10.0002 1.25C10.6633 1.25 11.2992 1.51339 11.768 1.98223C12.2368 2.45107 12.5002 3.08696 12.5002 3.75V6.25H7.50023V3.75C7.50023 3.08696 7.76363 2.45107 8.23247 1.98223C8.70131 1.51339 9.33719 1.25 10.0002 1.25V1.25ZM13.7502 6.25V3.75C13.7502 2.75544 13.3551 1.80161 12.6519 1.09835C11.9486 0.395088 10.9948 0 10.0002 0C9.00567 0 8.05185 0.395088 7.34858 1.09835C6.64532 1.80161 6.25023 2.75544 6.25023 3.75V6.25H4.20023C3.75133 6.2501 3.31735 6.41125 2.97718 6.70417C2.63701 6.99709 2.41322 7.40233 2.34648 7.84625L1.06274 16.4125C0.99622 16.857 1.02636 17.3106 1.1511 17.7423C1.27584 18.1741 1.49224 18.5739 1.78554 18.9144C2.07885 19.255 2.44215 19.5282 2.85067 19.7155C3.25919 19.9029 3.70331 19.9999 4.15273 20H15.8465C16.296 20.0001 16.7403 19.9032 17.149 19.7159C17.5576 19.5287 17.9211 19.2554 18.2145 18.9149C18.508 18.5744 18.7245 18.1745 18.8493 17.7426C18.9741 17.3108 19.0043 16.8571 18.9377 16.4125L17.6527 7.84625C17.586 7.40254 17.3624 6.99747 17.0225 6.70458C16.6826 6.41169 16.2489 6.2504 15.8002 6.25H13.7502ZM12.5002 7.5V9.375C12.5002 9.54076 12.5661 9.69973 12.6833 9.81694C12.8005 9.93415 12.9595 10 13.1252 10C13.291 10 13.45 9.93415 13.5672 9.81694C13.6844 9.69973 13.7502 9.54076 13.7502 9.375V7.5H15.799C15.9486 7.50015 16.0932 7.55397 16.2065 7.65168C16.3198 7.7494 16.3943 7.88452 16.4165 8.0325L17.7015 16.5963C17.7416 16.863 17.7237 17.1353 17.6489 17.3945C17.5742 17.6537 17.4444 17.8937 17.2684 18.0982C17.0924 18.3026 16.8744 18.4667 16.6292 18.5792C16.3841 18.6917 16.1175 18.7499 15.8477 18.75H4.15273C3.88298 18.7499 3.61641 18.6917 3.37123 18.5792C3.12605 18.4667 2.90802 18.3026 2.73205 18.0982C2.55607 17.8937 2.42629 17.6537 2.35155 17.3945C2.27681 17.1353 2.25888 16.863 2.29898 16.5963L3.58399 8.0325C3.6061 7.88473 3.68041 7.74978 3.79347 7.65209C3.90652 7.5544 4.05082 7.50045 4.20023 7.5H6.25023V9.375C6.25023 9.54076 6.31608 9.69973 6.43329 9.81694C6.5505 9.93415 6.70947 10 6.87523 10C7.041 10 7.19997 9.93415 7.31718 9.81694C7.43439 9.69973 7.50023 9.54076 7.50023 9.375V7.5H12.5002Z"
                             fill="currentColor"
                           />
                         </svg>
                       </span>
-                      <span>加入收藏</span>
+                      <span>門市預約試穿</span>
                     </span>
                   </a>
                 </li>
@@ -448,48 +461,76 @@
           class="list-unstyled row row-cols-md-4 row-cols-1 mx-md-n3 mx-n2 no-scrollbar flex-nowrap"
         >
           <li class="col px-md-3 px-2 max-width-8">
-            <div class="mb-3">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-            </div>
-            <div>
-              <div class="mb-1">
-                <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">VM001</h2>
+            <a href="./product_detail.html">
+              <div class="mb-3">
+                <img
+                  src="./img/product-2.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
               </div>
-              <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
-            </div>
+              <div>
+                <div class="mb-1">
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">VM001</h2>
+                </div>
+                <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
+              </div>
+            </a>
           </li>
           <li class="col px-md-3 px-2 max-width-8">
-            <div class="mb-3">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-            </div>
-            <div>
-              <div class="mb-1">
-                <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">VM001</h2>
+            <a href="./product_detail.html">
+              <div class="mb-3">
+                <img
+                  src="./img/product-3.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
               </div>
-              <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
-            </div>
+              <div>
+                <div class="mb-1">
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                    Melty Kiss
+                  </h2>
+                </div>
+                <p class="fs-6 text-neutral-900 fw-medium">NT$4,000</p>
+              </div>
+            </a>
           </li>
           <li class="col px-md-3 px-2 max-width-8">
-            <div class="mb-3">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-            </div>
-            <div>
-              <div class="mb-1">
-                <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">VM001</h2>
+            <a href="./product_detail.html">
+              <div class="mb-3">
+                <img
+                  src="./img/product-4.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
               </div>
-              <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
-            </div>
+              <div>
+                <div class="mb-1">
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">BOOMBLOK</h2>
+                </div>
+                <p class="fs-6 text-neutral-900 fw-medium">NT$3,200</p>
+              </div></a
+            >
           </li>
           <li class="col px-md-3 px-2 max-width-8">
-            <div class="mb-3">
-              <img src="./img/product-3.png" alt="商品圖片" title="商品圖片" />
-            </div>
-            <div>
-              <div class="mb-1">
-                <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">VM001</h2>
+            <a href="./product_detail.html">
+              <div class="mb-3">
+                <img
+                  src="./img/product-7.png"
+                  alt="商品圖片"
+                  title="商品圖片"
+                />
               </div>
-              <p class="fs-6 text-neutral-900 fw-medium">NT$2,600</p>
-            </div>
+              <div>
+                <div class="mb-1">
+                  <h2 class="fs-6 text-neutral-900 fw-bold lh-1p2">
+                    Sugar Snap
+                  </h2>
+                </div>
+                <p class="fs-6 text-neutral-900 fw-medium">NT$3,200</p>
+              </div></a
+            >
           </li>
         </ul>
       </section>
@@ -504,7 +545,9 @@
           <h2 class="fs-sm-4 fs-5 text-neutral-900 fw-bold lh-1p2">
             加入會員取得 9 折優惠
           </h2>
-          <a class="btn btn-large btn-neutral-filled" href=""> 馬上註冊 </a>
+          <a class="btn btn-large btn-neutral-filled" href="./login.html">
+            馬上註冊
+          </a>
         </div>
       </section>
       <section class="py-sm-10 py-6 px-3">
@@ -514,19 +557,21 @@
             class="list-unstyled d-flex justify-content-sm-between align-items-sm-center flex-sm-row flex-column"
           >
             <li class="me-8">
-              <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+              <a href="./index.html">
+                <img src="./img/svg/logo/logo.svg" alt="品牌標誌" />
+              </a>
             </li>
             <li
               class="d-flex justify-content-sm-center align-items-sm-center flex-sm-row flex-column"
             >
               <a
                 class="me-7 py-3 ps-sm-0 ps-3 fs-6 text-neutral-900 fw-medium"
-                href="#"
+                href="./products_list.html"
                 >商品列表</a
               >
               <a
                 class="py-3 fs-6 ps-sm-0 ps-3 text-neutral-900 fw-medium"
-                href="#"
+                href="./brand.html"
                 >品牌故事</a
               >
             </li>

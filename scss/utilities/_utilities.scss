@@ -38,6 +38,16 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes,
     ),
+    "border-color-neutral": (
+      property: border-color,
+      class: border-neutral,
+      values: $neutral-colors,
+    ),
+    "border-color-primary": (
+      property: border-color,
+      class: border-primary,
+      values: $primary-colors,
+    ),
     "max-width-c": (
       responsive: true,
       property: max-width,
